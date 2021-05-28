@@ -1,0 +1,242 @@
+body{
+	display: flex;
+  	flex-direction: column;
+}
+
+@media only screen and (max-width: 959px){
+	.title h1{
+		width: 100%;
+		height:auto;
+		text-align: center !important
+	}
+	.add_recipe_card{
+		width: 100%;
+		height:auto;
+	}
+
+	#viewdata-form{
+		width: 100%;
+		height:auto;
+		align-items: center !important;
+		padding-right: 40%;
+		padding-left: 40%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.title h1{
+		width: 100%;
+		height:auto;
+		text-align: center !important;
+	}
+	.add_recipe_card{
+		width: 100%;
+		height:auto;
+	}
+
+	#viewdata-form{
+		width: 100%;
+		height:auto;
+		padding-right: 40%;
+		padding-left: 40%;
+	}
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.title h1{
+		width: 100%
+		height:auto;
+		text-align: center !important
+	}
+	.title p{
+		width: 100%
+		height:auto;
+
+	}
+
+	#viewdata-form{
+		width: 100%;
+		height:auto;
+		align-items: center !important;
+	}
+}
+
+
+.nav-item a{
+
+			color: white !important;
+
+}
+
+.nav-item a:hover{
+
+				color: rgb(115, 0, 230) !important;
+					
+}
+	
+
+#navbar-brand-title{
+	color: white;
+}
+
+.foot{
+            position: fixed;
+            bottom: 0rem;
+            left: 0rem;
+            background: rgba(0,0,0,0.5);
+            color: rgb(210, 204, 255);
+            width: 100%;
+            height: 5%;
+            padding: 0rem;
+
+        }
+.fa {
+    padding: 15px;
+    font-size: 22px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: rgb(115, 0, 230);
+}
+
+.fa-facebook {
+  background: ##cc00cc;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-twitter  {
+  background: ##cc00cc;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: ##cc00cc;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.copyrights
+{
+    background: ##cc00cc;
+    color: white;   
+}
+.navbar-brand{
+	cursor: pointer;
+}
+
+.title h1{
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-size: 3rem;
+	text-shadow: 0px 0px 5px rgb(178, 78, 255);
+	text-align: center !important;
+}
+
+.title p{
+	color: white;
+	position: absolute;
+	top: 18%;
+	left: 40%;
+	font-size: 1.2rem;
+	text-shadow: 0px 0px 5px rgb(178, 78, 255);
+}
+
+#title{
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-size: 3rem;
+}
+
+.title-view-data{
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	font-size: 3rem;
+}
+
+#container{
+	width: 30rem;
+	height: auto;
+	
+}
+
+
+.mybtn{
+	min-width: 150px !important;
+
+}
+#btn1 a{
+	position: relative;
+	top: 15rem;
+	left: 0px;
+}
+
+.form-control:focus{
+		border-color: rgb(115, 0, 230);
+        box-shadow: 0 0 0 0.2rem rgba(42, 0, 173, 0.25);
+}
+
+.submit-inputs{
+	padding-left: 40%;
+	padding-right: 40%;
+}
+.viewdata-table{
+	border-color: white;
+	color: white; 	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+ 
+.table-striped{
+	color: white !important;
+}
+.table-hover tr:hover td, .table-hover tr:hover th {
+  background-color: rgba(115, 0, 230,0.5);
+  color: white;
+}
+.table{
+	padding-right: 10%;
+	padding-left: 10%;
+	top: 10rem;
+	background-color: rgba(0,0,0,0.4) !important;	
+}
+.inv_manager_main_menu{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.inv_manager_update_inventory-inputs{
+	padding-top: 12rem;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.inv_manager_add_inventory_card{
+	padding-top: 8rem;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#inv_manager_update_inventory_submit-button{
+	width: 20rem;
+}
+.inv_manager_delete_inventory_input{
+	padding-left: 30%;
+	padding-right: 30%;
+}
+#chef_manager_view_recipes_submit{
+	padding-right: 42%;
+	padding-left: 42%;
+
+} 
